@@ -5,7 +5,7 @@ apt-get install git -y
 apt-get install python-imaging -y
 
 # packages needed by papirus-temp
-apt-get install bc i2c-tools -y
+apt-get install bc i2c-tools python-smbus -y
 
 git clone https://github.com/PiSupply/PaPiRus.git
 cd PaPiRus
